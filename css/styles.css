@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #333;
+	color: white;
+}
+
+.black {
+	background: #111;
+}
+
+.about div {
+	margin: .5em;
+}
+
+.menu .column {
+	font-size: .8em;
+	text-align: center;
+	line-height: 2em;
+	height: 2em;
+}
+
+.columns {
+	padding: 0;
+}
+
+.menu li {
+	width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1em;
+    margin: 0;
+    position: relative;
+}
+
+.menu li img {
+	position: absolute;
+	margin: 5%;
+	left: 0;
+	width: 90%;
+	z-index: -1;
+}
+
+.menu li:first-child {
+    border-top-left-radius: 20% 1em;
+    border-top-right-radius: 20% 1em;
+    text-align: center;
+    height: 1.5em;
+    font-size: 1.5em;
+}
+
+nav {
+	height: 4em;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+nav .black {
+	height: 4em;
+}
+
+.info {
+	font-size: .7em;
+	color: white;
+	line-height: 1.1em;
+	padding-top: .7em;
+}
+
+iframe {
+	width: 100%;
+	height: 30em;
+}
+
+nav img {
+	padding: .5em 1em;
+	width: 8.25em;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: .5em 0;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	nav img {
+		width: 6.25em;
+	}
+
+	.info {
+		font-size: .5em;
+	}
+
+	nav {
+		height: 3em;
+	}
+
+	nav .black {
+		height: 3em;
+	}
+
+	.menu li {
+	    font-size: 1.2em;
+	    width: 49%;
+	    display: inline-block;
+	}
+	
+	.menu li:first-child {
+	    font-size: 1.2em;
+	    width: 100%;
+	}
+}
+
+nav a {
+	line-height: 4em;
+	display: block;
+	padding: 0 1em;
+	color: white;
+}
+
+nav a:hover {
+	background: #222;
+	color: white;
+}
+
+.yellow li:first-child {
+	background: rgb(200, 150, 20);
+}
+.lightBlue li:first-child {
+	background: rgb(50, 100, 200);
+}
+.red li:first-child {
+	background: rgb(230, 30, 30);
+}
+.purple li:first-child {
+	background: purple;
+}
+.darkBlue li:first-child {
+	background: rgb(20, 50, 160);
+}
+.green li:first-child {
+	background: green;
+}
+
+/*.yellow li {
+	background: rgba(200, 150, 20, .2);
+}
+.lightBlue li {
+	background: rgba(50, 100, 200, .2);
+}
+.red li {
+	background: rgba(230, 30, 30, .2);
+}
+.purple li {
+	background: purple;
+}
+.darkBlue li {
+	background: rgba(20, 50, 160, .2);
+}
+.green li {
+	background: green;
+}*/
